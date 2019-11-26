@@ -1,0 +1,93 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .content_container{
+    margin-left: 230px;
+    margin-right: 280px;
+  }
+  .sidebar{
+      overflow: auto;
+      height: 100vh;
+      margin-top: 50px;
+      border-right: 1px solid #D3D3D3;
+      background-color:#fff;
+  }
+  .sidebar-left{
+    position: fixed;
+      left: 0;
+  }
+  .sidebar-right{
+    position: fixed;
+     right:0;
+  }
+  .user-img{  /*DELETE IF NOT NEEDED*/
+      height: 90px;
+      width: auto;
+      display:block;
+      margin:0 auto
+  }
+  
+  .main_content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 55px auto 0 auto;
+    height:calc(100vh - 64px);
+    padding:10px 25px 0 25px;
+  }
+  
+  
+  /*
+  * Strategy Tracker
+  */
+  .strategy_tracker{
+    padding:30px;
+  }
+  .strategy_tracker main {
+    background-color: #fff;
+    border-radius:5px;
+  }
+  .strategy_tracker > main > p{
+    padding:20px;
+    border-bottom:1px solid #D3D3D3;
+  }
+  /*
+  * Strategy Tracker End
+  */
+  /*
+  * Scrollbar style
+  */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    position: relative;
+    z-index: 1000;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 50px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 50px;
+  }
+  
+  /*
+  * Scrollbar style end
+  */
+  
+  
+  @media screen and (max-width:500px){
+    .content_container{
+      margin-left:0px;
+      margin-right:0px;
+    }
+    .greeter h4{
+      text-align:left;
+    }
+    .strategy_tracker{
+      padding:0px;
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,11 @@
+body{
+    overflow: hidden;
+}
+.ant-layout-content{
+    height: 100vh;
+}
+.data-table-admin{
+    text-align: center;
+    padding: 5px;
+    height: calc(100vh - 150px);
+}
